@@ -2,23 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Pacifico&display=swap');
 
 :root{
-    margin: 0;
-    padding: 0;
-    gap: 0;
+    --rightsideWidth: 30%;
 }
+
 body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     background-color:  #e3b839;
     margin: 0;
     padding: 0;
+    border: 0;
+    overflow: hidden;
 }
 
+
+
+/* left */
 .image{
     padding-left: 50px;
     transform: scale(2);
     margin: 0;
-    width: 25%;
-    height: 66.7vh;
-    position: absolute;
+    width: 95%;
+    height: 69.7vh;
     overflow: hidden;
     opacity: 1;
 }
@@ -26,24 +32,80 @@ body {
 .logo{
     position:  absolute;
     width: 120px;
-    /* padding-left: 778px; */
-    padding-top: 810px;
+    padding-top: 125px;
     opacity: 0.7;
+    
 }
- #appointment {
-        font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        position: absolute;
-        font-size: 25px; 
-        padding-left: 1103px;
-        font-size: 40px;
-             
-        }
-
 #cut-text{
     position: absolute;
     font-family: 'Pacifico', cursive;
-    padding: 840px 0 0 120px;
+    padding-top: 150px;
+    padding-left: 120px;
     font-size: 32px;  
     color: rgb(157, 195, 54);
     opacity: 0.85;
 }
+
+/* right */
+
+.right{
+    /* display: flex; */
+    padding-left: 900px;
+    /* flex-wrap: wrap; */
+    position: absolute;
+}
+#appointment {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    padding-left: 80px 
+}
+
+.form{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex: 1; */
+    padding-top: 200px; 
+    font-size: 32px;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+#lastname{
+    width: var(--rightsideWidth)
+}
+#email{
+    width: 27.5%
+}
+#phone{
+    width: 37.2%
+}
+#password{
+    width: 20.2%
+}
+
+/* #email, #phone{
+    padding-top: 10px
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* give barber credit for picture */
+
+
+
+/* 
+input{
+    background-color: #e3b839; 
+    
+} */
