@@ -5,7 +5,6 @@
     --rightsideWidth: 30%;
 }
 
-
 @media (max-width: 1500px) {
     :root{
         overflow: auto; 
@@ -16,14 +15,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    background-color:  #c8a34c;
+    background-color:  #bbcf4b;
     margin: 0;
     padding: 0;
     border: 0;
     overflow: hidden;
 }
 
-/* Left side*/
+/* Left Side */
 
 .image{
     position: absolute;
@@ -39,21 +38,22 @@ body {
 .logo{
     position:  absolute ;
     width: 120px;
-    padding-top: 810px;
+    padding-top: 842px;
     opacity: 0.7;
     
 }
+
 #cut-text{
     position: absolute;
     font-family: 'Pacifico', cursive;
-    padding-top: 80px;
+    padding-top: 860px;
     padding-left: 120px;
     font-size: 32px;  
     color: rgb(171, 212, 59);
     opacity: 0.85;
 }
 
-/* rightside */
+/* Right Side */
 
 .right{
     padding-left: 900px;
@@ -62,10 +62,12 @@ body {
 #appointment {
     font-family: 'Fuggles', cursive;
     font-family: 'Onest', sans-serif;
-    font-family: 'Pacifico', cursive;   
+    font-family: 'Pacifico', cursive;    
     font-size: 60px;
     padding-left:90px; 
-    color: #31386e;
+    color: #000000;
+    background-color: rgb(145, 112, 186);
+    border-radius: 10px;
 
 }
 
@@ -90,7 +92,7 @@ body {
 button[type="submit"] {
     background-color: #007BFF; 
     color: #fff; 
-    padding: 10px 50px;
+    padding: 10px 50px; 
     border: none;
     padding-top: 10px;
     border-radius: 5px; 
@@ -112,5 +114,6 @@ input{
 }
 
 input:focus{
-    background-color: #3d6d73;
+    background-color: #338581;
 }
+
