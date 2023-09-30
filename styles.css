@@ -38,7 +38,7 @@ body {
 .logo{
     position:  absolute ;
     width: 120px;
-    padding-top: 842px;
+    padding-top: 812px;
     opacity: 0.7;
     
 }
@@ -46,7 +46,7 @@ body {
 #cut-text{
     position: absolute;
     font-family: 'Pacifico', cursive;
-    padding-top: 860px;
+    padding-top: 837px;
     padding-left: 120px;
     font-size: 32px;  
     color: rgb(171, 212, 59);
