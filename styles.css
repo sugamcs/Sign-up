@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Pacifico&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Onest:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Onest:wght@500&family=Pacifico&display=swap');
 :root{
     --rightsideWidth: 30%;
 }
@@ -23,9 +23,8 @@ body {
     overflow: hidden;
 }
 
+/* Left side*/
 
-
-/* left */
 .image{
     position: absolute;
     padding-left: 50px;
@@ -54,18 +53,16 @@ body {
     opacity: 0.85;
 }
 
-/* right */
+/* rightside */
 
 .right{
-    /* display: flex; */
     padding-left: 900px;
-    /* flex-wrap: wrap; */
     position: absolute;
 }
 #appointment {
     font-family: 'Fuggles', cursive;
     font-family: 'Onest', sans-serif;
-    font-family: 'Pacifico', cursive;    /* position: absolute; */
+    font-family: 'Pacifico', cursive;   
     font-size: 60px;
     padding-left:90px; 
     color: #31386e;
@@ -93,16 +90,16 @@ body {
 button[type="submit"] {
     background-color: #007BFF; 
     color: #fff; 
-    padding: 10px 50px; /* Adjust padding as needed */
+    padding: 10px 50px;
     border: none;
     padding-top: 10px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
     cursor: pointer;
     
-    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    transition: background-color 0.3s ease; 
     font-size: 20px;
     &:hover {
-        background-color: #0056b3; /* Change to a slightly different color on hover */
+        background-color: #0056b3; 
     }
 }
 
@@ -117,44 +114,3 @@ input{
 input:focus{
     background-color: #3d6d73;
 }
-
-
-/* 
-#lastname{
-    width: var(--rightsideWidth)
-}
-#email{
-    width: 27.5%
-}
-#phone{
-    width: 37.2%
-}
-#password{
-    width: 20.2%
-} */
-
-/* #email, #phone{
-    padding-top: 10px
-}
-
- */
-
-
-
-
-
-
-
-
-
-
-
-/* give barber credit for picture */
-
-
-
-/* 
-input{
-    background-color: #e3b839; 
-    
-} */
