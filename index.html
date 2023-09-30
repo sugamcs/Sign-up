@@ -20,25 +20,25 @@
         <div class="form">
             <form action="#" method="post">
                 <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="firstname">
+                <input type="text" id="firstname" name="firstname"  required>
 
                 <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="lastname">
+                <input type="text" id="lastname" name="lastname"required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email"required>
 
                 <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone">
+                <input type="number" id="phone" name="phone"required min="5">
 
                 <label for="password">Password:</label>
-                <input type="text" id="password" name="password">
+                <input type="text" id="password" name="password"required>
 
                 <label for="confirmpassword">Confirm password:</label>
-                <input type="text" id="confirmpassword" name="confirmpassword">
+                <input type="text" id="confirmpassword" name="confirmpassword"required>
                 <p></p>
                 <button type="submit">Sign Up</button>
-                <h6 id="loginuser">Already a user? Log in</h6>
+                <h6 id="loginuser">Already a user? <a href="#">Log in</a></h6>
 
             </form>
  
